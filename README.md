@@ -1,23 +1,16 @@
 # DEBER5
 
 package demo_jdbc;
-
-
 import java.util.List;
 import java.util.stream.Collectors;
-
 import demo_jdbc.models.Circuit;
 import demo_jdbc.respositories.CircuitRepository; 
-
 import demo_jdbc.models.DriverResult;
 import demo_jdbc.respositories.DriverResultRepository; 
-
 import demo_jdbc.models.Constructors;
 import demo_jdbc.respositories.ConstructorsRepository;
-
 import demo_jdbc.models.Season;
 import demo_jdbc.respositories.SeasonRepository;
-
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
