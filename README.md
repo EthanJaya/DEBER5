@@ -1,25 +1,45 @@
 # DEBER5
 
 package demo_jdbc;
+
 import java.util.List;
+
 import java.util.stream.Collectors;
+
 import demo_jdbc.models.Circuit;
+
 import demo_jdbc.respositories.CircuitRepository; 
+
 import demo_jdbc.models.DriverResult;
+
 import demo_jdbc.respositories.DriverResultRepository; 
+
 import demo_jdbc.models.Constructors;
+
 import demo_jdbc.respositories.ConstructorsRepository;
+
 import demo_jdbc.models.Season;
+
 import demo_jdbc.respositories.SeasonRepository;
+
 import javafx.application.Application;
+
 import javafx.collections.FXCollections;
+
 import javafx.collections.ObservableList;
+
 import javafx.scene.Scene;
+
 import javafx.scene.control.ComboBox;
+
 import javafx.scene.control.TableColumn;
+
 import javafx.scene.control.TableView;
+
 import javafx.scene.control.cell.PropertyValueFactory;
+
 import javafx.scene.layout.VBox;
+
 import javafx.stage.Stage;
 
 	public class Main extends Application {
